@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
     
-AutoML4All/README.mdRUN git clone https://github.com/gd-rvemula/AutoML4All.git .
+RUN git clone https://github.com/LKONDETI/AutoML4All.git .
 
 RUN pip3 install -r requirements.txt
 
